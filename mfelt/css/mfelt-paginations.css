@@ -1,0 +1,53 @@
+.mf-pagination{
+	margin: 10px auto;
+	font-size: 1.1rem;
+}
+.mf-pagination.large {
+	font-size: 1.3rem;
+}
+.mf-pagination.small {
+	font-size: 0.85rem;
+}
+.mf-pagination > ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+.mf-pagination > ul > li{
+	border: 1px solid var(--bordergrey-lighter);
+	border-radius: 0;
+}
+.mf-pagination > ul > li:not(:first-child) {
+	border-left: none;
+}
+.mf-pagination > ul > li:first-child {
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.mf-pagination > ul > li:last-child {
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.mf-pagination > ul > li > a{
+	position: relative;
+	display: block;
+	padding: .5em .7em;
+	color: var(--txtblue);
+	text-decoration: none;
+}
+.mf-pagination > ul > li:not(.active) > a:hover {
+	background-color: var(--bggrey-lighter);
+}
+.mf-pagination > ul > li.active {
+	background-color: var(--bgblue);
+}
+.mf-pagination > ul > li.active > a{
+	color: #fff;
+}
+.mf-pagination > ul > li.disabled {
+	pointer-events: none;
+	background-color: var(--bggrey-light);
+}
+.mf-pagination > ul > li.disabled > a{
+	color: #fff;
+}

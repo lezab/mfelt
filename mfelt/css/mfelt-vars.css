@@ -1,0 +1,149 @@
+:root{
+	--bggrey: #aaa;
+	--bggrey-dark: #666;
+	--bggrey-darker: #3a3a3a;
+	--bggrey-light: #eaeaea;
+	--bggrey-lighter: #f8f8f8;
+	
+	--bggreen: #7ab744;
+	--bggreen-dark: #45ac16;
+	--bggreen-darker: #2e8207;
+	--bggreen-light: #dff0d8;
+	--bggreen-lighter: #f2fdf5;
+	
+	--bgyellow: #ffea3b;
+	--bgyellow-dark: #ffcc00;
+	--bgyellow-darker: #ffbf00;
+	--bgyellow-light: #fffccf;
+	--bgyellow-lighter: #fffeed;
+	
+	--bgorange: #ffa700;
+	--bgorange-dark: #fd7e14;
+	--bgorange-darker: #df6600;
+	--bgorange-light: #fddea4;
+	--bgorange-lighter: #ffedca;
+	
+	--bgred: #f53333;
+	--bgred-dark: #c91111;
+	--bgred-darker: #a41818;
+	--bgred-light: #ffd9d9;
+	--bgred-lighter: #fff2f2;
+	
+	--bgpurple: #8a5dca;
+	--bgpurple-dark: #5e3e97;
+	--bgpurple-darker: #4e2874;
+	--bgpurple-light: #caace8;
+	--bgpurple-lighter: #f6f1ff;
+	
+	--bgblue: #227ad7;
+	--bgblue-dark: #054bb3;
+	--bgblue-darker: #052c65;
+	--bgblue-light: #d9e8ff;
+	--bgblue-lighter: #f2fbff;
+	
+	--bgcyan: #48daf7;
+	--bgcyan-dark: #06aed0;
+	--bgcyan-darker: #00738a;
+	--bgcyan-light: #c7f6ff;
+	--bgcyan-lighter: #ecfcff;
+	
+	
+	
+	--txtgrey: #777;
+	--txtgrey-dark: #555;
+	--txtgrey-darker: #333;
+	--txtgrey-light: #aaa;
+	--txtgrey-lighter: #ccc;
+	
+	--txtgreen: #45ac16;
+	--txtgreen-dark: #2e8207;
+	--txtgreen-darker: #257700;
+	--txtgreen-light: #72d346;
+	--txtgreen-lighter: #b6d78c;
+	
+	--txtyellow: #ffcc00;
+	--txtyellow-dark: #f9bb00;
+	--txtyellow-darker: #e6b40d;
+	--txtyellow-light: #fddf69;
+	--txtyellow-lighter: #ffea92;
+
+	--txtorange: #fd7e14;
+	--txtorange-dark: #fd7e14;
+	--txtorange-darker: #e85700;
+	--txtorange-light: #ffbc75;
+	--txtorange-lighter: #ffd6a1;
+	
+	--txtred: #ff2f2f;
+	--txtred-dark: #ca1300;
+	--txtred-darker: #a20700;
+	--txtred-light: #ff8578;
+	--txtred-lighter: #ffafaf;
+	
+	--txtpurple: #6800ff;
+	--txtpurple-dark: #4d2b8a;
+	--txtpurple-darker: #391971;
+	--txtpurple-light: #b787fb;
+	--txtpurple-lighter: #ceb4ff;
+	
+	--txtblue: #1586ff;
+	--txtblue-dark: #0043e1;
+	--txtblue-darker: #002491;
+	--txtblue-light: #63afff;
+	--txtblue-lighter: #a6c9ff;
+	
+	--txtcyan: #15badd;
+	--txtcyan-dark: #0091ae;
+	--txtcyan-darker: #006f86;
+	--txtcyan-light: #56e3ff;
+	--txtcyan-lighter: #95edff;
+	
+	
+	
+	--bordergrey: #777;
+	--bordergrey-dark: #555;
+	--bordergrey-darker: #333;
+	--bordergrey-light: #d0d0d0;
+	--bordergrey-lighter: #f0f0f0;
+	
+	--bordergreen: #45ac16;
+	--bordergreen-dark: #319503;
+	--bordergreen-darker: #206401;
+	--bordergreen-light: #b6d78c;
+	--bordergreen-lighter: #dff0d8;
+	
+	--borderyellow: #fbe000;
+	--borderyellow-dark: #ffc000;
+	--borderyellow-darker: #e4af00;
+	--borderyellow-light: #ffeeab;
+	--borderyellow-lighter: #fff5cb;
+	
+	--borderorange: #ff9b00;
+	--borderorange-dark: #ee7b00;
+	--borderorange-darker: #cc5e01;
+	--borderorange-light: #ffd077;
+	--borderorange-lighter: #fbf3c8;
+	
+	--borderred: #f00808;
+	--borderred-dark: #b41111;
+	--borderred-darker: #910101;
+	--borderred-light: #ffc1c1;
+	--borderred-lighter: #f8dede;
+		
+	--borderpurple: #864dbf;
+	--borderpurple-dark: #532f7e;
+	--borderpurple-darker: #36166d;
+	--borderpurple-light: #c1a0dd;
+	--borderpurple-lighter: #e9ddff;
+	
+	--borderblue: #1a69ce;
+	--borderblue-dark: #0f42a4;
+	--borderblue-darker: #00204f;
+	--borderblue-light: #c8defb;
+	--borderblue-lighter: #e5f4fb;
+	
+	--bordercyan: #15badd;
+	--bordercyan-dark: #0091ae;
+	--bordercyan-darker: #00667b;
+	--bordercyan-light: #a5f0ff;
+	--bordercyan-lighter: #dcf4f9;
+}

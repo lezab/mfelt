@@ -1,0 +1,41 @@
+ul.mf-accordion {
+	list-style: none;
+	margin-bottom: 20px;
+}
+ul.mf-accordion > :first-child {
+	border-radius: 5px 5px 0 0;
+}
+.mf-accordion-item {
+	position: relative;
+	cursor: pointer;
+	padding: 10px;
+	background: var(--bggrey-lighter);
+	color: var(--txtgrey-dark);
+	border: 1px solid var(--bordergrey-light);
+} 
+.mf-accordion-item:after {
+	position: absolute;
+	content: "\25bc";
+	right: 10px;
+	transition: transform 0.2s;
+}
+.mf-accordion-content {
+	overflow: hidden;
+	transition: all 0.2s ease-out; 
+	height: 0;
+	border: 1px solid var(--bordergrey-light);
+	border-top: 0;
+}
+.mf-accordion-content + .mf-accordion-item {
+	border-top: 0;
+}
+.mf-accordion-item.opened {
+	background: var(--bgblue-light);
+}
+.mf-accordion-item.opened:after {
+	transform: rotate(180deg);
+}
+.mf-accordion-item.opened + .mf-accordion-content {
+	height: auto;
+	padding: 10px;
+}

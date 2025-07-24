@@ -1,0 +1,15 @@
+.mf-title-box {
+}
+.mf-title-box > .title, .mf-title-box > span {
+	position: relative;
+	display: inline-block;
+	padding: 0 10px;
+	background-color: var(--bggrey-light);
+	color: var(--txtblack);
+	border: 1px solid var(--bordergrey-light);
+	border-bottom: none;
+}
+.mf-title-box > .content, .mf-title-box > div {
+	padding: 10px 10px 10px;
+	border: 1px solid var(--bordergrey-light);
+}

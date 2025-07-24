@@ -1,0 +1,33 @@
+.mf-card {
+	background: #fff;
+	border: 1px solid var(--bordergrey-light);
+	border-radius: 5px;
+	font-size: 1.2em;
+	margin: 1em;
+	position: relative;
+	padding: 10px;
+}
+.mf-card > header {
+	border-radius: 5px 5px 0 0;
+	background-color: var(--bggrey-lighter);
+	font-size: 18px;
+	font-weight: 600;
+	padding: 10px;
+	margin-bottom: 10px;
+	position: relative;
+	top: -10px;
+	left: -10px;
+	width: calc(100% + 20px);
+	border-bottom: 1px solid var(--bordergrey-light);
+}
+.mf-card > footer {
+	border-radius: 0 0 5px 5px;
+	background-color: var(--bggrey-lighter);
+	padding: 10px;
+	margin-top: 10px;
+	position: relative;
+	top: 10px;
+	left: -10px;
+	width: calc(100% + 20px);
+	border-top: 1px solid var(--bordergrey-light);
+}

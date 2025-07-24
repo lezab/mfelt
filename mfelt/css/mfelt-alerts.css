@@ -1,0 +1,68 @@
+.mf-alert {
+	border-radius: 2px;
+	font-size: 1.2em;
+	margin: 1em 0;
+	position: relative;
+	overflow: hidden;
+	padding: 10px;
+}
+.mf-alert, .mf-alert.warning {
+	background: var(--bgorange-light);
+	color: var(--txtorange-dark);
+	border: 1px solid var(--borderorange-dark);
+}
+.mf-alert.success {
+	background: var(--bggreen-light);
+	color: var(--txtgreen-dark);
+	border: 1px solid var(--bordergreen-dark);
+}
+.mf-alert.error {
+	background: var(--bgred-light);
+	color: var(--txtred-dark);
+	border: 1px solid var(--borderred-dark);
+}
+.mf-alert.info {
+	background: var(--bgblue-light);
+	color: var(--txtblue-dark);
+	border: 1px solid var(--borderblue-dark);
+}
+.mf-alert.block {
+	background: #fff;
+	color: var(--txtgrey-dark);
+}
+.mf-alert.block > header {
+	font-size: 18px;
+	font-weight: 500;
+	padding: 10px;
+	margin-bottom: 10px;
+	position: relative;
+	top: -10px;
+	left: -10px;
+	width: calc(100% + 20px);
+}
+.mf-alert.block > header,
+.mf-alert.block.warning > header {
+	background: var(--bgorange-light);
+	color: var(--txtorange-dark);
+}
+.mf-alert.block.success > header {
+	background: var(--bggreen-light);
+	color: var(--txtgreen-dark);
+}
+.mf-alert.block.error > header {
+	background: var(--bgred-light);
+	color: var(--txtred-dark);
+}
+.mf-alert.block.info > header {
+	background: var(--bgblue-light);
+	color: var(--txtblue-dark);
+}
+.mf-alert-dismiss {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor:pointer;
+	padding:10px;
+	font-weight: bold;
+}
