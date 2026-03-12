@@ -15,7 +15,7 @@
 .mf-button.rounded{
 	border-radius: 10em;
 }
-.mf-button:hover, .mf-button:active {
+.mf-button:hover, .mf-button:active, .mf-button.active {
   text-decoration: none;
   color: #000;
   background: #cccccc;
@@ -41,7 +41,7 @@
   background: #0f75da;
   border: 1px solid #0c63b9;
 }
-.mf-button.blue:hover, .mf-button.blue:active {
+.mf-button.blue:hover, .mf-button.blue:active, .mf-button.blue.active {
   background: #0d68c2;
   border: 1px solid #0a56a1;
   color: #fff;
@@ -63,7 +63,7 @@
   background: #4a9b17;
   border: 1px solid #3e8313;
 }
-.mf-button.green:hover, .mf-button.green:active {
+.mf-button.green:hover, .mf-button.green:active, .mf-button.green.active {
   background: #3f8514;
   border: 1px solid #336d10;
   color: #fff;
@@ -85,7 +85,7 @@
   background: #ff9c00;
   border: 1px solid #d88400;
 }
-.mf-button.orange:hover, .mf-button.orange:active {
+.mf-button.orange:hover, .mf-button.orange:active, .mf-button.orange.active {
   background: #e68c00;
   border: 1px solid #bf7400;
   color: #fff;
@@ -107,7 +107,7 @@
   background: #c91111;
   border: 1px solid #aa0e0e;
 }
-.mf-button.red:hover, .mf-button.red:active {
+.mf-button.red:hover, .mf-button.red:active, .mf-button.red.active {
   background: #b10f0f;
   border: 1px solid #920c0c;
   color: #fff;
@@ -129,7 +129,7 @@
   background: #1a1a1a;
   border: 1px solid #161616;
 }
-.mf-button.black:hover, .mf-button.black:active {
+.mf-button.black:hover, .mf-button.black:active, .mf-button.black.active {
   background: #0d0d0d;
   border: 1px solid #090909;
   color: #fff;
@@ -151,7 +151,7 @@
   background: #fff;
   border: 1px solid #d8d8d8;
 }
-.mf-button.white:hover, .mf-button.white:active {
+.mf-button.white:hover, .mf-button.white:active, .mf-button.white.active {
   background: #f2f2f2;
   border: 1px solid #cbcbcb;
   color: #555;
