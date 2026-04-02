@@ -2,15 +2,13 @@
 	position: relative;
 	min-height: 40px;
 	border-bottom: 1px solid var(--bordergrey-light);
-	list-style-type: none;
+	list-style: none;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
 	display: flex;
+	flex-wrap: wrap;
 }
 @media (min-width: 768px) {
-  	.mf-tabs > ul > li, .mf-tabs > ul > li.left {
-	}
 	.mf-tabs > ul > li.right {
 		margin-left: auto;
 	}
@@ -21,9 +19,8 @@
 .mf-tabs > ul > li {
 	transition: 0.2s;
 	border: 1px solid var(--bordergrey-light);
-	border-bottom: 0;
-	border-top-left-radius: 3px;
-	border-top-right-radius: 3px;
+	border-bottom: none;
+	border-radius: 3px 3px 0 0;
 }
 .mf-tabs > ul > li + li{
 	margin-left: 2px;

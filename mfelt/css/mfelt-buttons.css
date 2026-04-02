@@ -27,13 +27,13 @@
   background: #cccccc;
   box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px inset;
 }
-.mf-button[disabled] {
+.mf-button[disabled], .mf-button.disabled {
   background: #e6e6e6;
   border: 1px solid #e6e6e6;
   color: #999999;
   cursor: not-allowed;
 }
-.mf-button[disabled]:hover {
+.mf-button[disabled]:hover, .mf-button.disabled:hover {
   box-shadow: none;
 }
 .mf-button.blue {
@@ -50,12 +50,12 @@
 .mf-button.blue:focus {
   background: #0d68c2;
 }
-.mf-button.blue[disabled] {
+.mf-button.blue[disabled], .mf-button.blue.disabled {
   background: rgba(15, 117, 218, 0.6);
   border: 1px solid rgba(15, 117, 218, 0);
   color: #0c5baa;
 }
-.mf-button.blue[disabled]:hover {
+.mf-button.blue[disabled]:hover, .mf-button.blue.disabled:hover {
   box-shadow: none;
 }
 .mf-button.green {
@@ -72,12 +72,12 @@
 .mf-button.green:focus {
   background: #3f8514;
 }
-.mf-button.green[disabled] {
+.mf-button.green[disabled], .mf-button.green.disabled {
   background: rgba(74, 155, 23, 0.6);
   border: 1px solid rgba(74, 155, 23, 0);
   color: #356f10;
 }
-.mf-button.green[disabled]:hover {
+.mf-button.green[disabled]:hover, .mf-button.green.disabled:hover {
   box-shadow: none;
 }
 .mf-button.orange {
@@ -94,12 +94,12 @@
 .mf-button.orange:focus {
   background: #e68c00;
 }
-.mf-button.orange[disabled] {
+.mf-button.orange[disabled], .mf-button.orange.disabled {
   background: rgba(255, 156, 0, 0.6);
   border: 1px solid rgba(255, 156, 0, 0);
   color: #cc7d00;
 }
-.mf-button.orange[disabled]:hover {
+.mf-button.orange[disabled]:hover, .mf-button.orange.disabled:hover {
   box-shadow: none;
 }
 .mf-button.red {
@@ -116,12 +116,12 @@
 .mf-button.red:focus {
   background: #b10f0f;
 }
-.mf-button.red[disabled] {
+.mf-button.red[disabled], .mf-button.red.disabled {
   background: rgba(201, 17, 17, 0.6);
   border: 1px solid rgba(201, 17, 17, 0);
   color: #9a0d0d;
 }
-.mf-button.red[disabled]:hover {
+.mf-button.red[disabled]:hover, .mf-button.red.disabled:hover {
   box-shadow: none;
 }
 .mf-button.black {
@@ -138,12 +138,12 @@
 .mf-button.black:focus {
   background: #0d0d0d;
 }
-.mf-button.black[disabled] {
+.mf-button.black[disabled], .mf-button.black.disabled {
   background: rgba(26, 26, 26, 0.6);
   border: 1px solid rgba(26, 26, 26, 0);
   color: black;
 }
-.mf-button.black[disabled]:hover {
+.mf-button.black[disabled]:hover, .mf-button.black.disabled:hover {
   box-shadow: none;
 }
 .mf-button.white {
@@ -160,12 +160,12 @@
 .mf-button.white:focus {
   background: #f2f2f2;
 }
-.mf-button.white[disabled] {
+.mf-button.white[disabled], .mf-button.white.disabled {
   background: rgba(255, 255, 255, 0.6);
   border: 1px solid rgba(255, 255, 255, 0);
   color: #e6e6e6;
 }
-.mf-button.white[disabled]:hover {
+.mf-button.white[disabled]:hover, .mf-button.white.disabled:hover {
   box-shadow: none;
 }
 .mf-button.large,

@@ -123,6 +123,23 @@ document.addEventListener('DOMContentLoaded', function() {
 				modal_toggles[i].addEventListener('click', function() {
 					modal.style.display = 'block';
 					document.body.classList.add('mf-modal-open');
+
+					// Vérifier s'il y a une URL à charger
+					let url = modal_toggles[i].getAttribute("data-mf-url");
+					if(url !== null){
+						let modalContent = modal.querySelector('.mf-modal-content');
+						if(modalContent !== null){
+							fetch(url)
+								.then(response => response.text())
+								.then(html => {
+									modalContent.innerHTML = html;
+								})
+								.catch(error => {
+									console.error('Erreur lors du chargement de la modale:', error);
+									modalContent.innerHTML = '<p>Erreur lors du chargement des données.</p>';
+								});
+						}
+					}
 				});
 				window.addEventListener('click', function(event) {
 					if (event.target == modal) {
